@@ -1,0 +1,12 @@
+@font-face {
+   font-family: 'ChocolateBox';
+   font-style: normal;
+   font-weight: normal;
+   src: local('ChocolateBox'), url('/fonts/C_BOX.woff') format('woff');
+   }
+   @font-face {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Poppins Regular'), url('/fonts/Poppins-Regular.woff') format('woff');
+      }
