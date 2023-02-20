@@ -155,15 +155,21 @@ body .container__header header .header__nav .for_the_user {
   font-size: 25px;
   color: #CECECE;
 }
-.rectangle .Merlot .View_more:active {
+.rectangle .Merlot .View_more:focus {
   background-color: #E2B024;
   color: black;
 }
 .rectangle .Merlot .Learn_more {
-  font-size: 25px;
-  background-color: #E2B024;
+  background-color: #18191A;
+  border: #E2B024 1px solid;
   width: 200px;
   height: 69px;
+  font-size: 25px;
+  color: #CECECE;
+}
+.rectangle .Merlot .Learn_more:focus {
+  background-color: #E2B024;
+  color: black;
 }
 
 .slider__wine {

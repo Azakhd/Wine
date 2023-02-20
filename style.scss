@@ -184,17 +184,24 @@ body {
          font-size: 25px;
          color: #CECECE;
 
-         &:active {
+         &:focus {
             background-color: #E2B024;
             color: black;
          }
       }
 
       .Learn_more {
-         font-size: 25px;
-         background-color: #E2B024;
+         background-color: #18191A;
+         border: #E2B024 1px solid;
          width: 200px;
          height: 69px;
+         font-size: 25px;
+         color: #CECECE;
+
+         &:focus {
+            background-color: #E2B024;
+            color: black;
+         }
       }
 
    }
