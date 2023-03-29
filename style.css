@@ -1,19 +1,24 @@
 @import url("reset.css");
+
 body {
   background-color: black;
 }
+
 body a {
   color: white;
 }
+
 body .container__header {
   display: flex;
   justify-content: center;
   width: 100%;
   align-items: center;
 }
+
 body .container__header header {
   width: 1200px;
 }
+
 body .container__header header .header__nav {
   height: 88px;
   font-family: "Poppins";
@@ -21,15 +26,18 @@ body .container__header header .header__nav {
   justify-content: space-between;
   align-items: center;
 }
+
 body .container__header header .header__nav p {
   color: white;
   cursor: context-menu;
 }
+
 body .container__header header .header__nav .group {
   width: 56%;
   display: flex;
   justify-content: space-between;
 }
+
 body .container__header header .header__nav .for_the_user {
   display: flex;
   align-items: center;
@@ -51,13 +59,16 @@ body .container__header header .header__nav .for_the_user {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
+
 .header__list .heder__link {
   font-size: 17px;
 }
+
 .header__list .heder__link:focus {
   color: yellow;
   border-bottom: 1px solid yellow;
 }
+
 .header__list .heder__link:active {
   color: yellow;
   border-bottom: 1px solid yellow;
@@ -68,16 +79,19 @@ body .container__header header .header__nav .for_the_user {
   justify-content: center;
   align-items: center;
 }
+
 .container__main main {
   width: 100%;
   height: 2700px;
 }
+
 .container__main .content {
   display: flex;
   justify-content: center;
   height: 700px;
   align-items: flex-end;
 }
+
 .container__main .content p {
   margin-bottom: 20px;
   width: 55%;
@@ -86,27 +100,33 @@ body .container__header header .header__nav .for_the_user {
   margin-left: auto;
   margin-right: auto;
 }
+
 .container__main .content .span {
   color: yellow;
   cursor: pointer;
   border-bottom: 1px solid yellow;
 }
+
 .container__main .content .bottles img {
   max-width: 300px;
 }
+
 .container__main .company {
   text-align: center;
   color: white;
   font-family: "ChocolateBox";
   cursor: context-menu;
 }
+
 .container__main h1 {
   margin-bottom: 20px;
   font-size: 75px;
 }
+
 .container__main h1 span {
   color: yellow;
 }
+
 .container__main h3 {
   margin-bottom: 20px;
   color: white;
@@ -119,11 +139,13 @@ body .container__header header .header__nav .for_the_user {
   height: 750px;
   background: #18191A;
 }
+
 .rectangle .Merlot {
   width: 1100px;
   display: flex;
   align-items: center;
 }
+
 .rectangle .Merlot .description {
   font-size: 18px;
   line-height: 180%;
@@ -131,6 +153,7 @@ body .container__header header .header__nav .for_the_user {
   margin-bottom: 50px;
   color: #B7B5B5;
 }
+
 .rectangle .Merlot .New_Wines {
   color: #B7B5B5;
   margin-bottom: 15px;
@@ -138,15 +161,18 @@ body .container__header header .header__nav .for_the_user {
   line-height: 170%;
   letter-spacing: 0.3em;
 }
+
 .rectangle .Merlot h2 {
   margin-bottom: 20px;
   font-size: 80px;
   color: yellow;
   font-family: "ChocolateBox";
 }
+
 .rectangle .Merlot .Winehouse {
   font-size: 36px;
 }
+
 .rectangle .Merlot .View_more {
   background-color: #18191A;
   border: #E2B024 1px solid;
@@ -154,11 +180,15 @@ body .container__header header .header__nav .for_the_user {
   height: 69px;
   font-size: 25px;
   color: #CECECE;
+  position: relative;
+  z-index: 1;
 }
+
 .rectangle .Merlot .View_more:focus {
   background-color: #E2B024;
   color: black;
 }
+
 .rectangle .Merlot .Learn_more {
   background-color: #18191A;
   border: #E2B024 1px solid;
@@ -167,6 +197,7 @@ body .container__header header .header__nav .for_the_user {
   font-size: 25px;
   color: #CECECE;
 }
+
 .rectangle .Merlot .Learn_more:focus {
   background-color: #E2B024;
   color: black;
@@ -180,8 +211,8 @@ body .container__header header .header__nav .for_the_user {
   align-items: center;
   justify-content: center;
 }
+
 .slider__wine img {
-  max-width: 190px;
   margin-bottom: 50px;
 }
 
@@ -214,6 +245,7 @@ body .container__header header .header__nav .for_the_user {
   width: 500px;
   align-items: center;
 }
+
 .controls .body_prev {
   background-color: #18191A;
   width: 50px;
@@ -223,12 +255,15 @@ body .container__header header .header__nav .for_the_user {
   margin-right: auto;
   justify-content: center;
 }
+
 .controls .Prev {
   font-family: "Poppins";
   text-decoration: underline;
   color: white;
   font-size: 20px;
+  background-color: #18191A;
 }
+
 .controls .body_Next {
   background-color: #18191A;
   width: 50px;
@@ -238,9 +273,31 @@ body .container__header header .header__nav .for_the_user {
   margin-left: auto;
   justify-content: flex-end;
 }
+
 .controls .Next {
   font-size: 20px;
   font-family: "Poppins";
   color: white;
   text-decoration: underline;
-}/*# sourceMappingURL=style.css.map */
+  background-color: #18191A;
+}
+
+/*# sourceMappingURL=style.css.map */
+.Merlot1,
+.Merlot3 {
+  opacity: 0;
+  transition: all ease 500ms;
+}
+.Merlot1{
+  transform:translate(146px, 0px) ;
+  
+}
+
+.Merlot3 {
+  max-width: 331px;
+}
+
+.Merlot2 {
+  transition: all ease 400ms;
+  max-width: 190px;
+}

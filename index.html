@@ -6,6 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width">
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="reset.css">
    <link rel="stylesheet" type="text/css" href="fonts.css" />
    <title>Drinks</title>
 </head>
@@ -53,35 +54,38 @@
                   </div>
             </div>
          </div>
-         <div class="rectangle">
-            <div class="Merlot">
-               <div class="merlot__info">
-                  <p class="New_Wines">New Wines</p>
-                  <h2>Merlot</h2>
-                  <h3 class="Winehouse">Winehouse Vineyard</h3>
-                  <p class="description">Merlot is loved for its boisterous black cherry flavors, supple
-                     tannins, and chocolatey finish. On the high end, it’s often
-                     mistaken with Cabernet Sauvignon.</p>
-                  <div class="Learn">
-                     <button class="Learn_more">Learn more</button>
-                     <button class="View_more">View more</button>
-                  </div>
+           <div class="rectangle">
+      <div class="Merlot">
+         <div class="merlot__info">
+            <p class="New_Wines">New Wines</p>
+            <h2>Merlot</h2>
+            <h3 class="Winehouse">Winehouse Vineyard</h3>
+            <p class="description">Merlot is loved for its boisterous black cherry flavors, supple
+               tannins, and chocolatey finish. On the high end, it’s often
+               mistaken with Cabernet Sauvignon.</p>
+            <div class="Learn">
+               <button class="Learn_more">Learn more</button>
+               <button class="View_more">View more</button>
+            </div>
+         </div>
+         <div class="slider__wine">
+            <div class="body__wine">
+               <img src="./img/Merlot/Merlot2.png"  alt="" class="Merlot1">
+               <img src=".//img/Merlot/Merlot1.png"style="max-width: 200px;" alt="" class="Merlot2">
+               <img src="./img/Merlot/merlot3.png" alt="" class="Merlot3">
+            </div>
+            <div class="controls">
+               <div class="body_prev">
+                  <button onclick="PR()" class="Prev">Prev</button>
                </div>
-               <div class="slider__wine">
-                  <div class="body__wine">
-                     <img src="./img/MERLOT-IGT-TREVENEZIE-BOTTEGA 1.png" alt="">
-                  </div>
-                  <div class="controls">
-                     <div class="body_prev">
-                        <p class="Prev">Prev</p>
-                     </div>
-                     <div class="body_Next">
-                        <p class="Next">Next</p>
-                     </div>   
-                  </div>
+               <div class="body_Next">
+                  <button onclick="NT()" class="Next">Next</button>
                </div>
             </div>
          </div>
+      </div>
+   </div>
+   <script src="slider.js"></script>
       </main>
    </div>
 </body>
