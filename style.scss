@@ -2,6 +2,7 @@
 
 body {
    background-color: black;
+   color: white;
 
    a {
       color: white;
@@ -82,7 +83,7 @@ body {
 
    main {
       width: 100%;
-      height: 2700px;
+      height: 3884px;
    }
 
    .content {
@@ -109,6 +110,8 @@ body {
       .bottles {
          img {
             max-width: 300px;
+            width: 300px;
+            height: 305px;
          }
       }
    }
@@ -218,6 +221,11 @@ body {
    img {
       max-width: 190px;
       margin-bottom: 50px;
+      transition: all 300ms;
+   }
+   .Merlot1 ,.Merlot3{
+      opacity: 0;
+      max-width: 316px;
    }
 }
 
@@ -243,8 +251,197 @@ body {
    justify-content: space-between;
 }
 .Futured_Products{
+   margin-top: 75px;
+   height: 1246px;
+   
+    .content_Futured{
+      width: 1100px;
+      height: 170px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+    }
    h2{
-      font-size: 80px;
+     
+      font-family: "ChocolateBox";
+      font-size: 55px;
+      margin-bottom: 40px;
+      span{
+         color: #E2B024;
+      }
+   }
+   .color_controls{
+      width: 380px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px #ffffff;
+    margin-bottom: 50px;
+
+    button{
+      background: none;
+      color: white;
+      font-size: 22px;
+      font-family: 'Poppins';
+      font-weight: 400;
+      line-height: 36px;
+      letter-spacing: 0em;
+      text-align: left;
+      &:focus{
+         color: #fad87b;
+      }
+    }
+   }
+   .View{
+      font-family: "ChocolateBox";
+      font-weight: 400;
+      line-height: 10px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-top: 70px;
+      font-size: 20px;
+      background: none;
+      color: rgba(226, 176, 36, 1);
+
+      text-decoration: underline;
+      &:active{
+         color: #b1a175;
+      }
+   }
+   .cards{
+      height: 950px;
+      width: 1100px;
+      display: grid;
+      grid-template-columns: 200px 200px 200px 200px;
+      grid-row-gap: 80px;
+      grid-column-gap: 100px;
+      justify-items: center;
+      transition: all 400ms;
+      .cardV , .cardE, .cardT, .cardR {
+         opacity: 0;
+      }
+      
+      .card{
+         transition: all 600ms;
+         width: 200px;
+         position: relative;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         .card_promotion{
+            background-color: #E2B024;
+            width: 63px;
+            height: 30px;
+            color: #18191A;
+            padding-top: 7px;
+            position: absolute;
+            top: 20px;
+            left: -5px;
+         }
+         img{
+            width: 148px;
+            height: 355px;
+            
+         }
+         .title_card{
+            margin: 0 auto;
+            width: 143px;
+            .card-price{
+               width: 143px;
+               display: flex;
+               color: #E2B024;
+               align-items: center;
+               justify-content: space-between;
+               p{
+                  font-size: 24px;
+               }
+               s{
+                  color: #e2b024b3;
+               }
+            }
+
+            h4{
+               width: 160%;
+               margin-top: 16px;
+               margin-bottom: 13px;
+               font-family: ChocolateBox;
+               font-size: 24px;
+               font-weight: 400;
+               line-height: 14px;
+               letter-spacing: 0em;
+               text-align: left;
+            }
+         }
+      }
+   }  
+}
+
+.Client_Review{
+   margin-top: 99px;
+   transition: 400ms ;
+   background-image: url(./img/client/Rectangle\ 12\ \(3\).png);
+   backdrop-filter: brightness(40%);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 600px;
+   &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color:rgba(0, 0, 0, 0.751);
+   }
+   .content_Client{
+      position: relative;
+      z-index: 2;
+      width: 1100px;
+      height: 600px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      img{
+         margin-bottom: 10px;
+      }
+      .Client_name{
+         margin-bottom: 40px;
+         font-family: Poppins;
+         font-size: 24px;
+         font-weight: 700;
+         line-height: 42px;
+         letter-spacing: 0em;
+         text-align: center;
+      }
+      .Client_description{
+         font-family: Poppins;
+         font-size: 16px;
+         font-weight: 400;
+         line-height: 28px;
+         letter-spacing: 0em;
+         text-align: center;
+
+      }
+      .Client_title{
+         font-family: ChocolateBox;
+         font-size: 48px;
+         font-weight: 400;
+         line-height: 28px;
+         letter-spacing: 0em;
+         text-align: left;
+         margin-bottom: 30px;
+         span{
+            color: rgba(226, 176, 36, 1);
+         }
+      }
    }
 }
 
@@ -270,6 +467,7 @@ body {
       text-decoration: underline;
       color: white;
       font-size: 20px;
+      background-color: #18191A;
    }
 
    .body_Next {
@@ -287,5 +485,6 @@ body {
       font-family: "Poppins";
       color: white;
       text-decoration: underline;
+      background-color: #18191A;
    }
 }
