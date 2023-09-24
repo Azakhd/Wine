@@ -380,7 +380,7 @@ body {
 .Client_Review{
    margin-top: 99px;
    transition: 400ms ;
-   background-image: url(./img/client/Rectangle\ 12\ \(3\).png);
+   background-image: url(./img/client/body_Client.png);
    backdrop-filter: brightness(40%);
    background-repeat: no-repeat;
    background-position: center;
@@ -408,6 +408,15 @@ body {
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      .controls_slide{
+         display: flex;
+         justify-content: space-between;
+         width: 121px;
+         height: 50px;
+         img{
+            fill: darkgreen;
+         }
+      } 
 
       img{
          margin-bottom: 10px;
