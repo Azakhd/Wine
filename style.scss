@@ -3,6 +3,7 @@
 body {
    background-color: black;
    color: white;
+   transition: all 500ms;
 
    a {
       color: white;
@@ -83,7 +84,7 @@ body {
 
    main {
       width: 100%;
-      height: 3884px;
+      
    }
 
    .content {
@@ -129,7 +130,7 @@ body {
       font-size: 75px;
 
       span {
-         color: yellow;
+         color: rgb(226, 176, 36);
       }
    }
 
@@ -329,6 +330,7 @@ body {
          display: flex;
          flex-direction: column;
          align-items: center;
+         cursor: pointer;
          .card_promotion{
             background-color: #E2B024;
             width: 63px;
@@ -376,6 +378,147 @@ body {
       }
    }  
 }
+.Amazing_offer{
+   width: 1100px;
+   display: flex;
+   margin: 0 auto;
+   flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 802px;
+    .Amazing_Title{
+      font-family: ChocolateBox;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-top: 40px;
+    }
+    .Amazing_Content{
+      display: flex;
+      width: 1100px;
+      justify-content: space-evenly;
+      align-items: center;
+      
+      img{
+         width: 314px;
+         height: 492px;
+
+
+      }
+      .Amazing_Block{
+         cursor: pointer;
+         position: relative;
+         border: #18191A 1px solid;
+         
+         .wine-name{
+            position: absolute;
+            bottom: 80px;
+            left: 21px;
+            font-family: "ChocolateBox";
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgb(232 218 218);
+         }
+         .wine-price{
+            position: absolute;
+            bottom: 26px;
+            left: 22px;
+            font-family: "Poppins";
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 54px;
+            letter-spacing: 0em;
+            text-align: left;
+         }
+         &:hover{
+            border: 1px solid white;
+         }
+      }
+    }
+}
+.Featured_Events{
+   width: 100%;
+   height: 710px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   h1{
+      font-family: "ChocolateBox";
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+   .Featured_content{
+      margin: 0 auto;
+      width: 1300px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .left-controls ,.Right-controls{
+         cursor: pointer;
+      }
+      
+      .Featured_block{
+         width: 1070px;
+         position: relative;
+         border:black 1px solid ;
+         background-color: rgba(24, 25, 26, 1);
+         &:hover{
+            border:white 1px solid ;
+         }
+         h3{
+            position: absolute;
+            top: 54px;
+            left: 400px;
+            font-family: "Poppins";
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+         }
+         .date{
+            position: absolute;
+            top: 95px;
+            left: 400px;
+         }
+         .futured-Description{
+            position: absolute;
+            top: 172px;
+            left: 400px;
+            font-family: "Poppins";
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 512px;
+         }
+         a{
+            position: absolute;
+            bottom: 72px;
+            left: 400px;
+            font-family: "ChocolateBox";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 10px;
+            letter-spacing: 0em;
+            text-align: left;
+            text-decoration: underline;
+            color: #E2B024;
+         }
+      }
+   }
+}
 
 .Client_Review{
    margin-top: 99px;
@@ -413,7 +556,7 @@ body {
          justify-content: space-between;
          width: 121px;
          height: 50px;
-         img{
+         img {
             fill: darkgreen;
          }
       } 
